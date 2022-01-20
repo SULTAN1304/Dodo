@@ -1,0 +1,6 @@
+.pizzaWrapper{
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+}
