@@ -20,6 +20,7 @@ import { useState } from 'react';
 
 function App() {
  const [basket, setBasket] = useState(JSON.parse(localStorage.getItem("basket")) || [])
+ 
   return (
     <Router>
       <div className="App">
